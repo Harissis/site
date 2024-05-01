@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <header>
+      
+      <div class="header1"><img src="./img/header.png" alt="header1">
+        
+        <span class="botao"> <img src="./img/botão - idiomas.png" alt="botao"> </span>
+        <span class="language"><img src="./img/language image.png" alt="language"></span>
+        <span class="seta" id="seta"><img src="./img/dropdown.png" alt="seta"></span>
+        <span class="rafael" id="rafael"><img src="./img/rafael.jpeg" alt="rafael"></span>
+        <span class="notification" id="notification"><img src="./img/notification badge (1).png" alt="notification"></span>
+        <span class="video"><img src="./img/dewey 1.png" alt="video"></span>
+        <span class="imagemfundo"><img src="./img/vídeo overlay.png" alt="imagemfundo"></span>
+        <span class="rosto"><img src="./img/round.png" alt="rosto"></span>
+        <nav>
+          <ul>
+              
+              <li class="dropdown" id="dropdown">
+                  <a href=>PT,BR</a>
+  
+                  <div class="dropdown-menu">
+                      <a href="">EN,US</a>
+                  </div>
+              </li>
+      
+          </ul>
+        </nav>
+       
+        <span class="logo-text2">Anais do Simpósio Latino Americano de Ciências de Alimentos</span>
+        <span class="logo-text3">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </span>
+        <span class="logo-text4">ISSN: 1234-5678 </span> 
+        <span class="logo-text5">Bem vindo!</span> 
+        <span class="logo-text6">rafaelharissis@galoascience.com</span> 
+        <span class="logo-text7">
+        Análise sensorial de preparações funcionais desenvolvidas para escolares 
+        entre 09 e 15 anos, do município de Campinas/SP </span> 
+
+        <span class="logo-text8">
+          Análise sensorial de preparações funcionais desenvolvidas
+          para escolares entre 09 e 15 anos, do município de 
+          Campinas/SP </span>
+        
+       <span class="logo-text9">Beatriz Christiane Melo</span>
+       <span class="logo-text10">FCA / Universidade Estadual de Campinas</span>
+      </div>
+        
+      
+      
+      <div class="sidebar"> 
+        <img src="./img/side bar-shadow.png " alt="sidebar">
+        <img src="./img/placabranca." alt="">
+    
+      </div>
+
+
+      <div class="topnome">
+        <img src="./img/Rectangle 239.png" alt="topnome">
+        <span class="logo-text1">SLACA 2019</span>
+      </div>
+      
+      <div class="dewey">
+        <img src="./img/dewey 4.png" alt="dewey">
+      </div>
+ 
+          
+        
+    </header>
+
+<script>
+    document.getElementById("seta").addEventListener("click", function() {
+        var dropdown = document.getElementById("dropdown");
+        dropdown.classList.toggle("show-dropdown");
+    });
+</script>
+
+</body>
+</html>
